@@ -49,7 +49,7 @@ const server = http.createServer(app);
 
 
 // Start the server for Microsoft Azure or local
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5700;
 
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
